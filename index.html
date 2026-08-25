@@ -435,8 +435,8 @@
     return h("div", { style: { padding: "14px 24px 26px", flexShrink: 0 } },
       h("a", {
         href: FINAL_CTA_HREF,
-        className: "rc-cta" + (grad ? " rc-cta--grad" : ""),
-        style: { width: "100%", minHeight: "56px", background: grad ? "linear-gradient(45deg,#DB0553 0%,#2A4A8E 60%)" : "#DB0553", borderRadius: "8px", display: "flex", alignItems: "center", justifyContent: "center", textDecoration: "none", boxSizing: "border-box" }
+        className: "rc-cta",
+        style: { width: "100%", minHeight: "56px", background: "#DB0553", borderRadius: "8px", display: "flex", alignItems: "center", justifyContent: "center", textDecoration: "none", boxSizing: "border-box" }
       }, h("span", { style: { fontSize: "19px", fontWeight: 700, color: "#FFFFFF", letterSpacing: "0.3px" } }, label)));
   };
   Quiz.prototype.markCircle = function (ok, size) {
